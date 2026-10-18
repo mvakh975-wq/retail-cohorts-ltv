@@ -1,0 +1,27 @@
+[project]
+name = "retail-cohorts-ltv"
+version = "1.0.0"
+description = "Когорты, retention и LTV онлайн-ритейлера: Pandas + DataLens"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=2.0",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "kaggle>=1.6",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6", "jupyterlab>=4.2", "nbconvert>=7", "ipykernel>=6"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"*.ipynb" = ["E501"]  # длинные русские подписи графиков
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
