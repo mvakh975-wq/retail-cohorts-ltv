@@ -7,7 +7,7 @@
 британского онлайн-магазина и вкладка в публичном дашборде Yandex DataLens.
 
 **[→ Ноутбук с анализом](notebooks/cohorts_ltv.ipynb)** ·
-**[→ Дашборд в DataLens](https://datalens.yandex/07arbroepa4mj)** (вкладка «Когорты и LTV»)
+**[→ Дашборд в DataLens](https://datalens.yandex/07arbroepa4mj?tab=retail)** (вкладка «Когорты и LTV онлайн-ритейлера»)
 
 ![Накопленная выручка на нового клиента по месяцам](docs/ltv.png)
 
@@ -35,7 +35,7 @@
 
 ## Дашборд
 
-Те же выводы в интерактивном виде — [вкладка «Когорты и LTV» в DataLens](https://datalens.yandex/07arbroepa4mj?tab=retail):
+Те же выводы в интерактивном виде — [вкладка «Когорты и LTV онлайн-ритейлера» в DataLens](https://datalens.yandex/07arbroepa4mj?tab=retail):
 
 ![Дашборд DataLens: KPI, «новые» клиенты по месяцам, LTV, retention по когортам, сегменты](docs/dashboard.png)
 
