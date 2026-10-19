@@ -31,6 +31,12 @@
 
 ![Retention по месячным когортам](docs/retention_heatmap.png)
 
+## Дашборд
+
+Те же выводы в интерактивном виде — [вкладка «Когорты и LTV» в DataLens](https://datalens.yandex/07arbroepa4mj?tab=retail):
+
+![Дашборд DataLens: KPI, «новые» клиенты по месяцам, LTV, retention по когортам, сегменты](docs/dashboard.png)
+
 ## Данные и главная ловушка
 
 [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) (UCI): 1 067 371 строка
