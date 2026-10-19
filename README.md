@@ -1,5 +1,7 @@
 # Когорты, retention и LTV онлайн-ритейлера
 
+[![CI](https://github.com/mvakh975-wq/retail-cohorts-ltv/actions/workflows/ci.yml/badge.svg)](https://github.com/mvakh975-wq/retail-cohorts-ltv/actions/workflows/ci.yml)
+
 **Сколько приносит новый клиент за первые полгода, как часто он возвращается и по каким признакам
 уже на первом заказе видно ценного клиента?** Когортный анализ на Pandas по двум годам транзакций
 британского онлайн-магазина и вкладка в публичном дашборде Yandex DataLens.
