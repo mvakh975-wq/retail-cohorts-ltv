@@ -41,7 +41,8 @@
 
 ## Данные и главная ловушка
 
-[Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) (UCI): 1 067 371 строка
+[Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) (UCI; файлы скачиваются
+с [зеркала на Kaggle](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)): 1 067 371 строка
 накладных за 01.12.2009–09.12.2011, большинство клиентов — небольшие оптовые покупатели.
 Очистка — [`src/clean.py`](src/clean.py), решения по каждой проблеме —
 [`docs/data_quality.md`](docs/data_quality.md): строки без клиента (13,7% выручки), дубли,
